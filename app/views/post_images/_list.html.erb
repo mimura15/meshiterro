@@ -1,4 +1,4 @@
-<% @post_images.each do |post_image| %>
+<% post_images.each do |post_image| %>
 
 <div>
 	<%= link_to post_image_path(post_image.id) do %>
@@ -14,4 +14,4 @@
 
 <% end %>
 
-<%= paginate @post_images %>
+<%= paginate post_images %>
